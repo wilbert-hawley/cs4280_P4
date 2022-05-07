@@ -1,11 +1,11 @@
+Storage=Global
+
 Wilbert Hawley
 CS 4280
 4/21/22
-Project 3
+Project 4
 
-LOCAL OPTION
-
-This project simulates static semantics for a compiler. This program will check to make sure identifiers are properly declared.
+This project goes through a parse tree and creates an assembly code file.
 
 First you must compile the program using the following command (within the program folder):
 
@@ -13,18 +13,13 @@ First you must compile the program using the following command (within the progr
 
 To run the program, run the following command:
 
-    ./statSem [file]
+    ./compfs [file]
 
-Where file is an optional command. Without it, you can type a program in on the terminal or redirect your file. This assumes that file has the suffix ".sp2022".
+Where file is an optional command. Without it, you can type a program in on the terminal or redirect your file. This assumes that file has the suffix ".sp2022". The program will create a file in the target language.
 
 To clean the folder, run the following command:
 
     make clean
 
 Some things of note:
-    - For some reason, my program can't pick up undeclared variables that around placed in parentheses [x: yell ( z ) ;] will not be recognized for some reason if z hasn't been declared.
-    - fixed space issue in parse tree
-    - fixed closing parentheses error
-    - fixed issue in N where i was assigning child1 twice
-    - fixed issue where an empty vars was stil returning a node
-    - fixed an error in where my loops weren't formatting correctly
+    -

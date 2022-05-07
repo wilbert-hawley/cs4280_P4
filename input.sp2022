@@ -1,12 +1,7 @@
-## p2g6, lastly, you want to very thoroughly test expressions with variations of below##
-declare a := whole ;
-declare b := whole ;
-declare c := whole ;
+## p2g2 ##
+declare x := whole ;
 main
 {
-declare z := whole ;
-declare z := whole ;
-    assign a = 3 ;
-    assign c = 19 ;
-    yell z ;
+listen x ;
+yell x ;
 }

@@ -1,4 +1,4 @@
-FINAL = statSem
+FINAL = compfs
 CXX = g++
 CXXFLAGS = -Wall
 MAIN_CPP = main.cpp
@@ -13,4 +13,4 @@ $(FINAL): $(OBJS)
 
 .PHONY: clean
 clean:
-	/bin/rm -f $(FINAL) *.o *.txt output.sp2022
+	/bin/rm -f $(FINAL) *.o *.txt kb.sp2022 *.asm
